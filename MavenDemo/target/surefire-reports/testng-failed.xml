@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test name="FirefoxTest(failed)" parallel="tests">
+    <parameter name="sBrowser" value="firefox"/>
+    <classes>
+      <class name="com.jlc.demo1.Test3">
+        <methods>
+          <include name="searchApache"/>
+          <include name="testLaunch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.jlc.demo1.Test3 -->
+      <class name="com.jlc.demo1.Test2">
+        <methods>
+          <include name="searchSelenium"/>
+          <include name="testLaunch"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.jlc.demo1.Test2 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
