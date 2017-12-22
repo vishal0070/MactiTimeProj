@@ -1,4 +1,3 @@
-com\script\actiTime\Script1.class
 com\jlc\demo1\Test2.class
 com\library\actiTime\JavascriptLibrary.class
 com\library\actiTime\DynamicElementLibrary.class
@@ -15,4 +14,5 @@ com\po\actiTime\ActiTime_HomePage.class
 com\library\actiTime\CssLibrary.class
 com\jlc\demo1\Test3.class
 com\library\actiTime\AutoConst.class
+com\script\actiTime\TestScript1.class
 com\library\actiTime\StupidClass.class
